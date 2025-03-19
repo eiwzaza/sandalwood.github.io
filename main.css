@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURExUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw8PDysZFRkrKystKzcrKy0rKystKys3LTcrKzcrKy03Ny0rLSstNystKysrKystKysrNysrKysrLf/AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIEAwf/xAAZEAEBAQEBAQAAAAAAAAAAAAAAARExIQL/xAAaAQEBAQEBAQEAAAAAAAAAAAACAQAFAwQG/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERAv/aAAwDAQACEQMRAD8A+ppJHTKCRigUZJGMiSTMiCmokiiIgxktMaZKhaSCo2kwFhpITCUomFEJm0oIUKCZEkmZJJmcJBN0kkmZEGIlUKoZCkhQpJkKSZNRgMYLSYDGG0kKELRZjUYaiAo2kwFBSSZigWZJJGSSRkkmZw6QjdIpJEKSRkQUGpIsiSTDaikw6moEg2khKNpMBhDphBYbSglEkJmKSRkkkZEJEKSZUkmZwoGFrpFRJNQoFEqIhQUkoo2mEJhpSSDSgWG0pFRRgRC0QlG1JJk0wslmKCRCgWYoJMUkJsYoJsbXDGtZqR0ydZKIUCw0qpMNRiiYaiCwlJMFqILCUksGowEktKBUKiIWRGAsyQTMUkjJJMpQTMUEzONBPN1GkImGkgsKMFiYTpCYCQmG0pJRpMB1R1agVglAqNpQKijoSprWjUkbUQmYoJmJZTM1qZ06zaUEza40E8HWrSBXQph4AwUkFhpQhUaiEwkgqB1QGKNSSWDSWYVEoJUKSIdKBTG1EJm0oatRtKGpm0oFm1IFW1xaWU+XXXaLJlUKUCo0wslhaQKhUQmGkgqNKg1RQpIRQaYRFpJTagWFEIh0pJk1JDWZrwDVrJpQ1a2KUzqbG06hqXGchFT4XX0lmUrokslRrRZKiTAlCnSyVGkgrBqUSUSQosGtaEjg0oFRpQSgUEyaQNWriaUBrY2tAatXG06NCbG0pnSuLsculmJzNditxMldHSWSWjWjrKWUa0WSQ1os6VExJKNKiRCSzCsGmEIgKSIKkkQKjUFxNKCXE06Fo1W0jWbQuNrbN+mbRrY2tamNS4mvE6zp1xtdprSyilRojFCFqUsrVGtQ6yS0WiySRoiRWlBp1AkJhEShSQSCpJFAp1lIwtQVSwUtGjVTSzVo0k1WjRazauJptFo1m0sbWtTz1LjaNKT8/HcTU86kfInQUSFFFEqKRCSkUEylIkRSIaSkQUpI486kkrzqSRwKzoKIWbRakUSpi1JYlZtZtSOINZtSKMNSRYz/2Q==');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+marquee {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    background-color: whitesmoke
+
+}
+
+.imghead img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 10px;
+    border: 5px dotted #bbb;
+}
+
+.headbg img {
+    width: 1200px;
+    height: 400px;
+    padding: 15px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 35px; 
+       
+}
+
+.headbg  p {
+    text-align: center;
+    font-style: italic;
+    font-size: 2rem;  
+}
+.headbg .text5 p {
+    top: 120px;
+    left: 740px;
+    font-size: 48px;
+    font-family: Cursive;
+    
+
+}
+/* effice a link*/
+.btnfb p a {
+    text-align: center;
+    width: 239px;
+    height: 50px;
+    font-size: 28px;
+    border-radius: 7px;
+    font-family: Cursive;
+    top: 250px;
+    left: 950px;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color:#54b3d6;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out; 
+}
+
+.btnfb p a:hover {
+    color: #fff;
+    box-shadow: inset 240px 0 0 0 #54b3d6;
+}
+
+section p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+section ion-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;  
+}
+ion-icon {
+    width: 5rem;
+    height: 4rem;
+}
+
+p {
+    display: flex;
+    font-size: 3.125rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif; 
+
+}
+
+article { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.625rem;
+    width: 100%;     
+}
+.menuwater {
+    display: flex;
+    flex-wrap: wrap;
+    font: 6.25 1.5rem/6.25rem sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    gap: 1.25rem; 
+}
+
+.menuwater div img {
+    border-radius: 100rem;
+    width: 18.75rem;
+    height: 17.5rem;
+
+}
+
+.menuwater div .text{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: -10rem;
+    
+}
+.menuwater div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    height: 4rem;
+    border-radius: 10px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+.menuwater div a:hover{
+    box-shadow: inset 310px 0 0 0 #54b3d6;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    height: 180px;
+   
+}
+
+footer .menufooter {
+    position: absolute;
+    right: 570px;
+    width: 1000px;
+    height: 120px;
+    
+}
+footer .menufooter ul  {
+    display: flex;
+    justify-content: right;
+    align-items: center;    
+}
+
+
+footer .menufooter ul img {
+    display: block;
+    width: 50px;
+    padding: 10px;    
+}
+
+.textfooter p {
+    display: block;
+    font-family: Cursive;
+    font-size: 20px;
+}
+
+
+.header2-1 h1,.header2-2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    border: 5px solid rosybrown;
+}
+
+
+.img2-1,.img2-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;  
+    gap: 1.5rem;
+    padding-top: 10px;  
+}
+
+.img2-1 img,.img2-2 img {
+    border-radius: 10px;
+    height: 25rem;
+}
+
+.contact2-1 {
+    padding-top: 1rem;
+}
+
+.contact2-1 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem;
+    
+}
+a {
+    text-decoration: none;
+}
+
+    @media only screen and (max-width: 600px) {
+        .columns {
+        width: 100%;
+        }
+    }
+  
+.detail1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+
+  
