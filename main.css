@@ -25,7 +25,7 @@ marquee {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 80%;
     border-radius: 10px;
     border: 5px dotted #bbb;
 }
@@ -83,9 +83,7 @@ marquee {
 section p {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    text-align: center;
 }
 section ion-icon {
     display: flex;
@@ -124,6 +122,7 @@ article {
     margin-right: auto;
     margin-top: 2rem;
     gap: 1.25rem; 
+    padding: 70px;
 }
 
 .menuwater div img {
@@ -189,6 +188,7 @@ footer .menufooter ul img {
     display: block;
     font-family: Cursive;
     font-size: 20px;
+    text-align: center;
 }
 
 
@@ -240,7 +240,19 @@ a {
     text-decoration: none;
 }
 
+    @media only screen and (max-width: 1280px) {
+        .columns {
+        width: 100%;
+        }
+    }
+
     @media only screen and (max-width: 600px) {
+        .columns {
+        width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 390px) {
         .columns {
         width: 100%;
         }
@@ -253,6 +265,3 @@ a {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;  
 }
-
-
-  
